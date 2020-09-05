@@ -29,7 +29,7 @@ fun_features: # 一些好玩的功能
   typing: # 为 subtitle 添加打字机效果
     enable: true
     typeSpeed: 70  # 打印速度，数字越大越慢
-    cursorChar: "_" # 游标字符
+    cursorChar: "?" # 游标字符
     loop: false # 是否循环播放效果
   anchorjs: # 为文章内容中的标题添加锚图标
     enable: true
@@ -161,10 +161,10 @@ footer:
 
   beian:  # The footer of China's website policy, other areas keep disable
     enable: false
-    icp_text: 京ICP证123456号 # ICP证号
-    police_text: 京公网安备12345678号 # 公安备案号，不填则只显示ICP
-    police_code: 12345678 # 公安备案的编号，用于URL跳转查询
-    police_icon: /img/police_beian.png # 公安备案的图片. 为空时不显示备案图片
+    icp_text:  # ICP证号
+    police_text:  # 公安备案号，不填则只显示ICP
+    police_code:  # 公安备案的编号，用于URL跳转查询
+    police_icon:  # 公安备案的图片. 为空时不显示备案图片
 
 scroll_top_arrow:  # 向顶部滚动的箭头
   enable: true
@@ -180,7 +180,7 @@ index:
   post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
   slogan:  # 首页副标题的独立设置
     enable: true  # 为 false 则不显示任何内容
-    text: 'An elegant Material-Design theme for Hexo'  # 为空则按 hexo config.subtitle 显示
+    text: '未必灼见 但一定是真知'  # 为空则按 hexo config.subtitle 显示
   auto_excerpt:
     enable: true
   post_url_target: _self  # available: _blank | _self
